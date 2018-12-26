@@ -6,4 +6,18 @@
 //  Copyright © 2018 Ercilasun, Gokalp. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+class AppViewController: UIViewController {
+    
+    
+    // MARK: FIX LOG OUT TO SEGUE BACK....
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+}
+    
+    
+}
