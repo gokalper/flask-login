@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7018B3E421D34848005E3EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018B3E321D34848005E3EA2 /* AppDelegate.swift */; };
+		7018B3E621D34848005E3EA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018B3E521D34848005E3EA2 /* ViewController.swift */; };
+		7018B3E921D34848005E3EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7018B3E721D34848005E3EA2 /* Main.storyboard */; };
+		7018B3EB21D3484A005E3EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7018B3EA21D3484A005E3EA2 /* Assets.xcassets */; };
+		7018B3EE21D3484A005E3EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7018B3EC21D3484A005E3EA2 /* LaunchScreen.storyboard */; };
+		7018B3F921D3484A005E3EA2 /* flask_loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018B3F821D3484A005E3EA2 /* flask_loginTests.swift */; };
+		7018B40421D3484A005E3EA2 /* flask_loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018B40321D3484A005E3EA2 /* flask_loginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7018B3F521D3484A005E3EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7018B3D821D34847005E3EA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7018B3DF21D34847005E3EA2;
+			remoteInfo = "flask-login";
+		};
+		7018B40021D3484A005E3EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7018B3D821D34847005E3EA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7018B3DF21D34847005E3EA2;
+			remoteInfo = "flask-login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7018B3E021D34847005E3EA2 /* flask-login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flask-login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7018B3E321D34848005E3EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7018B3E521D34848005E3EA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7018B3E821D34848005E3EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7018B3EA21D3484A005E3EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7018B3ED21D3484A005E3EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7018B3EF21D3484A005E3EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7018B3F421D3484A005E3EA2 /* flask-loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flask-loginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7018B3F821D3484A005E3EA2 /* flask_loginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flask_loginTests.swift; sourceTree = "<group>"; };
+		7018B3FA21D3484A005E3EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7018B3FF21D3484A005E3EA2 /* flask-loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flask-loginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7018B40321D3484A005E3EA2 /* flask_loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flask_loginUITests.swift; sourceTree = "<group>"; };
+		7018B40521D3484A005E3EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7018B3DD21D34847005E3EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018B3F121D3484A005E3EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018B3FC21D3484A005E3EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7018B3D721D34847005E3EA2 = {
+			isa = PBXGroup;
+			children = (
+				7018B3E221D34847005E3EA2 /* flask-login */,
+				7018B3F721D3484A005E3EA2 /* flask-loginTests */,
+				7018B40221D3484A005E3EA2 /* flask-loginUITests */,
+				7018B3E121D34847005E3EA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7018B3E121D34847005E3EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7018B3E021D34847005E3EA2 /* flask-login.app */,
+				7018B3F421D3484A005E3EA2 /* flask-loginTests.xctest */,
+				7018B3FF21D3484A005E3EA2 /* flask-loginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7018B3E221D34847005E3EA2 /* flask-login */ = {
+			isa = PBXGroup;
+			children = (
+				7018B3E321D34848005E3EA2 /* AppDelegate.swift */,
+				7018B3E521D34848005E3EA2 /* ViewController.swift */,
+				7018B3E721D34848005E3EA2 /* Main.storyboard */,
+				7018B3EA21D3484A005E3EA2 /* Assets.xcassets */,
+				7018B3EC21D3484A005E3EA2 /* LaunchScreen.storyboard */,
+				7018B3EF21D3484A005E3EA2 /* Info.plist */,
+			);
+			path = "flask-login";
+			sourceTree = "<group>";
+		};
+		7018B3F721D3484A005E3EA2 /* flask-loginTests */ = {
+			isa = PBXGroup;
+			children = (
+				7018B3F821D3484A005E3EA2 /* flask_loginTests.swift */,
+				7018B3FA21D3484A005E3EA2 /* Info.plist */,
+			);
+			path = "flask-loginTests";
+			sourceTree = "<group>";
+		};
+		7018B40221D3484A005E3EA2 /* flask-loginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7018B40321D3484A005E3EA2 /* flask_loginUITests.swift */,
+				7018B40521D3484A005E3EA2 /* Info.plist */,
+			);
+			path = "flask-loginUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7018B3DF21D34847005E3EA2 /* flask-login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7018B40821D3484A005E3EA2 /* Build configuration list for PBXNativeTarget "flask-login" */;
+			buildPhases = (
+				7018B3DC21D34847005E3EA2 /* Sources */,
+				7018B3DD21D34847005E3EA2 /* Frameworks */,
+				7018B3DE21D34847005E3EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flask-login";
+			productName = "flask-login";
+			productReference = 7018B3E021D34847005E3EA2 /* flask-login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7018B3F321D3484A005E3EA2 /* flask-loginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7018B40B21D3484A005E3EA2 /* Build configuration list for PBXNativeTarget "flask-loginTests" */;
+			buildPhases = (
+				7018B3F021D3484A005E3EA2 /* Sources */,
+				7018B3F121D3484A005E3EA2 /* Frameworks */,
+				7018B3F221D3484A005E3EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7018B3F621D3484A005E3EA2 /* PBXTargetDependency */,
+			);
+			name = "flask-loginTests";
+			productName = "flask-loginTests";
+			productReference = 7018B3F421D3484A005E3EA2 /* flask-loginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7018B3FE21D3484A005E3EA2 /* flask-loginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7018B40E21D3484A005E3EA2 /* Build configuration list for PBXNativeTarget "flask-loginUITests" */;
+			buildPhases = (
+				7018B3FB21D3484A005E3EA2 /* Sources */,
+				7018B3FC21D3484A005E3EA2 /* Frameworks */,
+				7018B3FD21D3484A005E3EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7018B40121D3484A005E3EA2 /* PBXTargetDependency */,
+			);
+			name = "flask-loginUITests";
+			productName = "flask-loginUITests";
+			productReference = 7018B3FF21D3484A005E3EA2 /* flask-loginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7018B3D821D34847005E3EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ercilasun, Gokalp";
+				TargetAttributes = {
+					7018B3DF21D34847005E3EA2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7018B3F321D3484A005E3EA2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7018B3DF21D34847005E3EA2;
+					};
+					7018B3FE21D3484A005E3EA2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7018B3DF21D34847005E3EA2;
+					};
+				};
+			};
+			buildConfigurationList = 7018B3DB21D34847005E3EA2 /* Build configuration list for PBXProject "flask-login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7018B3D721D34847005E3EA2;
+			productRefGroup = 7018B3E121D34847005E3EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7018B3DF21D34847005E3EA2 /* flask-login */,
+				7018B3F321D3484A005E3EA2 /* flask-loginTests */,
+				7018B3FE21D3484A005E3EA2 /* flask-loginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7018B3DE21D34847005E3EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018B3EE21D3484A005E3EA2 /* LaunchScreen.storyboard in Resources */,
+				7018B3EB21D3484A005E3EA2 /* Assets.xcassets in Resources */,
+				7018B3E921D34848005E3EA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018B3F221D3484A005E3EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018B3FD21D3484A005E3EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7018B3DC21D34847005E3EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018B3E621D34848005E3EA2 /* ViewController.swift in Sources */,
+				7018B3E421D34848005E3EA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018B3F021D3484A005E3EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018B3F921D3484A005E3EA2 /* flask_loginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7018B3FB21D3484A005E3EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018B40421D3484A005E3EA2 /* flask_loginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7018B3F621D3484A005E3EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7018B3DF21D34847005E3EA2 /* flask-login */;
+			targetProxy = 7018B3F521D3484A005E3EA2 /* PBXContainerItemProxy */;
+		};
+		7018B40121D3484A005E3EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7018B3DF21D34847005E3EA2 /* flask-login */;
+			targetProxy = 7018B40021D3484A005E3EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7018B3E721D34848005E3EA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7018B3E821D34848005E3EA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7018B3EC21D3484A005E3EA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7018B3ED21D3484A005E3EA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7018B40621D3484A005E3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7018B40721D3484A005E3EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7018B40921D3484A005E3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "flask-login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smokefreeplan.flask-login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7018B40A21D3484A005E3EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "flask-login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smokefreeplan.flask-login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7018B40C21D3484A005E3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "flask-loginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smokefreeplan.flask-loginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flask-login.app/flask-login";
+			};
+			name = Debug;
+		};
+		7018B40D21D3484A005E3EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "flask-loginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smokefreeplan.flask-loginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flask-login.app/flask-login";
+			};
+			name = Release;
+		};
+		7018B40F21D3484A005E3EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "flask-loginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smokefreeplan.flask-loginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "flask-login";
+			};
+			name = Debug;
+		};
+		7018B41021D3484A005E3EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "flask-loginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smokefreeplan.flask-loginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "flask-login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7018B3DB21D34847005E3EA2 /* Build configuration list for PBXProject "flask-login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7018B40621D3484A005E3EA2 /* Debug */,
+				7018B40721D3484A005E3EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7018B40821D3484A005E3EA2 /* Build configuration list for PBXNativeTarget "flask-login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7018B40921D3484A005E3EA2 /* Debug */,
+				7018B40A21D3484A005E3EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7018B40B21D3484A005E3EA2 /* Build configuration list for PBXNativeTarget "flask-loginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7018B40C21D3484A005E3EA2 /* Debug */,
+				7018B40D21D3484A005E3EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7018B40E21D3484A005E3EA2 /* Build configuration list for PBXNativeTarget "flask-loginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7018B40F21D3484A005E3EA2 /* Debug */,
+				7018B41021D3484A005E3EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7018B3D821D34847005E3EA2 /* Project object */;
+}
